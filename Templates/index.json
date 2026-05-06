@@ -4,4 +4,9 @@
     "name": "DA40-NG",
     "file": "Templates/Diamond/DA40-NG.json"
   }
+  {
+    "manufacturer": "Cessna",
+    "name": "C172S",
+    "file": "Templates/Cessna/C172S.json"
+  }
 ]
