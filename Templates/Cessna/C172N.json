@@ -1,0 +1,68 @@
+{
+  "aircraftType": "C172N",
+  "registration": "D-XXXX",
+  "isTandem": false,
+  "emptyWeight": 1393,
+  "emptyArm": 39.6,
+  "maxTakeoffWeight": 2300,
+  "maxZeroFuelWeight": null,
+  "weightUnit": "lbs",
+  "armUnit": "inch",
+  "fuelUnit": "gal",
+  "fuelType": "AVGAS 100LL",
+  "seatRows": [
+    {
+      "arm": 37,
+      "seatCount": 2
+    },
+    {
+      "arm": 73,
+      "seatCount": 2
+    }
+  ],
+  "baggageRows": [
+    {
+      "arm": 95,
+      "bags": [
+        120
+      ]
+    },
+    {
+      "arm": 123,
+      "bags": [
+        50
+      ]
+    }
+  ],
+  "fuelTanks": [
+    {
+      "name": "Tank",
+      "arm": 46,
+      "maxFuel": 40
+    }
+  ],
+  "envelope": {
+    "points": [
+      {
+        "arm": 35,
+        "value": 1393
+      },
+      {
+        "arm": 35,
+        "value": 1950
+      },
+      {
+        "arm": 38.5,
+        "value": 2300
+      },
+      {
+        "arm": 47.3,
+        "value": 2300
+      },
+      {
+        "arm": 47.3,
+        "value": 1393
+      }
+    ]
+  }
+}

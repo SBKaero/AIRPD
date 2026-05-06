@@ -1,0 +1,68 @@
+{
+  "aircraftType": "C152",
+  "registration": "D-XXXX",
+  "isTandem": false,
+  "emptyWeight": 1142,
+  "emptyArm": 29.93,
+  "maxTakeoffWeight": 1670,
+  "maxZeroFuelWeight": null,
+  "weightUnit": "lbs",
+  "armUnit": "inch",
+  "fuelUnit": "gal",
+  "fuelType": "AVGAS 100LL",
+  "seatRows": [
+    {
+      "arm": 39,
+      "seatCount": 2
+    },
+    {
+      "arm": 0,
+      "seatCount": 0
+    }
+  ],
+  "baggageRows": [
+    {
+      "arm": 64,
+      "bags": [
+        120
+      ]
+    },
+    {
+      "arm": 84,
+      "bags": [
+        40
+      ]
+    }
+  ],
+  "fuelTanks": [
+    {
+      "name": "Tank",
+      "arm": 40,
+      "maxFuel": 26
+    }
+  ],
+  "envelope": {
+    "points": [
+      {
+        "arm": 31,
+        "value": 1100
+      },
+      {
+        "arm": 31,
+        "value": 1350
+      },
+      {
+        "arm": 32.62,
+        "value": 1670
+      },
+      {
+        "arm": 36.5,
+        "value": 1670
+      },
+      {
+        "arm": 36.5,
+        "value": 1100
+      }
+    ]
+  }
+}

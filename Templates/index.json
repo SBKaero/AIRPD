@@ -1,12 +1,25 @@
  [
   {
-    "manufacturer": "Diamond",
-    "name": "DA40-NG",
-    "file": "Templates/Diamond/DA40-NG.json"
-  },
+    "manufacturer": "Cessna",
+    "name": "C152",
+    "file": "Templates/Cessna/C152.json"
+  }
+  ,
+  {
+    "manufacturer": "Cessna",
+    "name": "C172N",
+    "file": "Templates/Cessna/C172N.json"
+  }
+  ,
   {
     "manufacturer": "Cessna",
     "name": "C172S",
     "file": "Templates/Cessna/C172S.json"
+  }
+  ,
+  {
+    "manufacturer": "Diamond",
+    "name": "DA40-NG",
+    "file": "Templates/Diamond/DA40-NG.json"
   }
 ]
