@@ -1,0 +1,66 @@
+{
+  "aircraftType": "C206",
+  "registration": "D-XXXX",
+  "isTandem": false,
+  "emptyWeight": 2182,
+  "emptyArm": 34.67,
+  "maxTakeoffWeight": 3600,
+  "maxZeroFuelWeight": null,
+  "weightUnit": "lbs",
+  "armUnit": "inch",
+  "fuelUnit": "gal",
+  "fuelType": "AVGAS 100LL",
+  "seatRows": [
+    {
+      "arm": 37,
+      "seatCount": 2
+    },
+    {
+      "arm": 70,
+      "seatCount": 2
+    },
+    {
+      "arm": 100,
+      "seatCount": 2
+    }
+  ],
+  "baggageRows": [
+    {
+      "arm": 127,
+      "bags": [
+        180
+      ]
+    }
+  ],
+  "fuelTanks": [
+    {
+      "name": "Tank",
+      "arm": 48,
+      "maxFuel": 87
+    }
+  ],
+  "envelope": {
+    "points": [
+      {
+        "arm": 33,
+        "value": 2182
+      },
+      {
+        "arm": 33,
+        "value": 2500
+      },
+      {
+        "arm": 42.5,
+        "value": 3600
+      },
+      {
+        "arm": 49.7,
+        "value": 3600
+      },
+      {
+        "arm": 49.7,
+        "value": 2182
+      }
+    ]
+  }
+}

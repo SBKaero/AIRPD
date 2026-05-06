@@ -1,0 +1,66 @@
+{
+  "aircraftType": "C210",
+  "registration": "D-XXXX",
+  "isTandem": false,
+  "emptyWeight": 2182,
+  "emptyArm": 40.3,
+  "maxTakeoffWeight": 3600,
+  "maxZeroFuelWeight": null,
+  "weightUnit": "lbs",
+  "armUnit": "inch",
+  "fuelUnit": "gal",
+  "fuelType": "AVGAS 100LL",
+  "seatRows": [
+    {
+      "arm": 37,
+      "seatCount": 2
+    },
+    {
+      "arm": 71,
+      "seatCount": 2
+    },
+    {
+      "arm": 101,
+      "seatCount": 2
+    }
+  ],
+  "baggageRows": [
+    {
+      "arm": 138,
+      "bags": [
+        120
+      ]
+    }
+  ],
+  "fuelTanks": [
+    {
+      "name": "Tank",
+      "arm": 48,
+      "maxFuel": 87
+    }
+  ],
+  "envelope": {
+    "points": [
+      {
+        "arm": 37,
+        "value": 2000
+      },
+      {
+        "arm": 37,
+        "value": 3000
+      },
+      {
+        "arm": 42.4,
+        "value": 3800
+      },
+      {
+        "arm": 53.2,
+        "value": 3800
+      },
+      {
+        "arm": 53.2,
+        "value": 2000
+      }
+    ]
+  }
+}
