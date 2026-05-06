@@ -9,7 +9,7 @@
   "emptyArm": 2.435,
 
   "maxTakeoffWeight": 1280,
-  "maxZeroFuelWeight": 1190,
+  "maxZeroFuelWeight": null,
 
   "weightUnit": "kg",
   "armUnit": "meter",
