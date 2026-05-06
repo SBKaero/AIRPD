@@ -12,7 +12,7 @@
   "fuelType": "AVGAS 100LL",
   "seatRows": [
     {
-      "arm": 94,
+      "arm": 0.94,
       "seatCount": 2
     },
     {
@@ -44,23 +44,23 @@
   "envelope": {
     "points": [
       {
-        "arm": 88.9,
+        "arm": 0.89,
         "value": 756
       },
       {
-        "arm": 88.9,
+        "arm": 0.89,
         "value": 839
       },
       {
-        "arm": 104.1,
+        "arm": 1.041,
         "value": 1158
       },
       {
-        "arm": 120.1,
+        "arm": 1.201,
         "value": 1158
       },
       {
-        "arm": 120.1,
+        "arm": 1.201,
         "value": 756
       }
     ]
