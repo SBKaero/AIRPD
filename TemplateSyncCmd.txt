@@ -1,1 +1,3 @@
+cd ~/Documents/AIRPD
+
 ./sync_templates.sh
