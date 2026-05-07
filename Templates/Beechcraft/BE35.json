@@ -1,0 +1,66 @@
+{
+  "aircraftType": "BE35",
+  "registration": "D-XXXX",
+  "isTandem": false,
+  "emptyWeight": 2167,
+  "emptyArm": 79.8,
+  "maxTakeoffWeight": 3400,
+  "maxZeroFuelWeight": null,
+  "weightUnit": "lbs",
+  "armUnit": "inch",
+  "fuelUnit": "gal",
+  "fuelType": "AVGAS 100LL",
+  "seatRows": [
+    {
+      "arm": 87,
+      "seatCount": 2
+    },
+    {
+      "arm": 123,
+      "seatCount": 2
+    }
+  ],
+  "baggageRows": [
+    {
+      "arm": 150,
+      "bags": [
+        270
+      ]
+    }
+  ],
+  "fuelTanks": [
+    {
+      "name": "Tank",
+      "arm": 75,
+      "maxFuel": 44
+    }
+  ],
+  "envelope": {
+    "points": [
+      {
+        "arm": 77,
+        "value": 2167
+      },
+      {
+        "arm": 77,
+        "value": 2900
+      },
+      {
+        "arm": 82.1,
+        "value": 3400
+      },
+      {
+        "arm": 84.4,
+        "value": 3400
+      },
+      {
+        "arm": 85.7,
+        "value": 3000
+      },
+      {
+        "arm": 85.7,
+        "value": 2167
+      }
+    ]
+  }
+}

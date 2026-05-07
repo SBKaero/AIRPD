@@ -1,0 +1,62 @@
+{
+  "aircraftType": "BE33-F33A",
+  "registration": "D-XXXX",
+  "isTandem": false,
+  "emptyWeight": 2257,
+  "emptyArm": 76.74,
+  "maxTakeoffWeight": 3400,
+  "maxZeroFuelWeight": null,
+  "weightUnit": "lbs",
+  "armUnit": "inch",
+  "fuelUnit": "gal",
+  "fuelType": "AVGAS 100LL",
+  "seatRows": [
+    {
+      "arm": 87,
+      "seatCount": 2
+    },
+    {
+      "arm": 128,
+      "seatCount": 2
+    }
+  ],
+  "baggageRows": [
+    {
+      "arm": 154,
+      "bags": [
+        270
+      ]
+    }
+  ],
+  "fuelTanks": [
+    {
+      "name": "Tank",
+      "arm": 75,
+      "maxFuel": 44
+    }
+  ],
+  "envelope": {
+    "points": [
+      {
+        "arm": 77,
+        "value": 2257
+      },
+      {
+        "arm": 77,
+        "value": 2800
+      },
+      {
+        "arm": 82.1,
+        "value": 3400
+      },
+      {
+        "arm": 84.7,
+        "value": 3400
+      },
+      {
+        "arm": 84.7,
+        "value": 2257
+      }
+    ]
+  }
+}

@@ -1,4 +1,23 @@
  [
+   
+   {
+     "manufacturer": "Beechcraft",
+     "name": "BE33-F33A",
+     "file": "Templates/Beechcraft/BE33-F33A.json"
+   }
+   ,
+  {
+    "manufacturer": "Beechcraft",
+    "name": "BE35",
+    "file": "Templates/Beechcraft/BE35.json"
+  }
+  ,
+  {
+    "manufacturer": "Beechcraft",
+    "name": "BE36A",
+    "file": "Templates/Beechcraft/BE36A.json"
+  }
+  ,
   {
     "manufacturer": "Cessna",
     "name": "C152",

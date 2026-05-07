@@ -1,0 +1,62 @@
+{
+  "aircraftType": "BE36A",
+  "registration": "D-XXXX",
+  "isTandem": false,
+  "emptyWeight": 2231,
+  "emptyArm": 76.74,
+  "maxTakeoffWeight": 3600,
+  "maxZeroFuelWeight": null,
+  "weightUnit": "lbs",
+  "armUnit": "inch",
+  "fuelUnit": "gal",
+  "fuelType": "AVGAS 100LL",
+  "seatRows": [
+    {
+      "arm": 79,
+      "seatCount": 2
+    },
+    {
+      "arm": 117,
+      "seatCount": 2
+    }
+  ],
+  "baggageRows": [
+    {
+      "arm": 150,
+      "bags": [
+        400
+      ]
+    }
+  ],
+  "fuelTanks": [
+    {
+      "name": "Tank",
+      "arm": 75,
+      "maxFuel": 44
+    }
+  ],
+  "envelope": {
+    "points": [
+      {
+        "arm": 74,
+        "value": 2231
+      },
+      {
+        "arm": 74,
+        "value": 3100
+      },
+      {
+        "arm": 81,
+        "value": 3600
+      },
+      {
+        "arm": 87.7,
+        "value": 3600
+      },
+      {
+        "arm": 87.7,
+        "value": 2231
+      }
+    ]
+  }
+}
