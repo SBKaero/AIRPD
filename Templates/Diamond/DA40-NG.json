@@ -67,4 +67,33 @@
       }
     ]
   }
+  performance:
+  PLoader.load(
+      named: "DA40_Performance"
+  )
+  ??
+  AircraftPerformance(
+      performanceUnits: PUnits(
+  
+          distance: .meters,
+  
+          altitude: .feet,
+  
+          temperature: .celsius,
+  
+          windSpeed: .knots,
+  
+          weight: .kg
+      ),
+  
+      takeoff: TakeoffPerformance(
+          TORun: [],
+          TODist: []
+      ),
+  
+      landing: LandingPerformance(
+          LDRun: [],
+          LDDist: []
+      )
+  ),
 }
