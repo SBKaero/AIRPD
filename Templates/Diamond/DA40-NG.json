@@ -1,4 +1,4 @@
-{
+ {
   "aircraftType": "DA40-NG",
 
   "registration": "D-XXXX",
@@ -39,7 +39,7 @@
     {
       "name": "Main Tank",
       "arm": 2.63,
-      "maxFuel": 76
+      "maxFuel": 29
     }
   ],
 
@@ -55,6 +55,10 @@
       },
       {
         "arm": 2.46,
+        "value": 1280
+      },
+      {
+        "arm": 2.469,
         "value": 1310
       },
       {
