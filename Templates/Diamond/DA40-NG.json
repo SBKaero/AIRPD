@@ -14,7 +14,7 @@
   "weightUnit": "kg",
   "armUnit": "meter",
 
-  "fuelUnit": "L",
+  "fuelUnit": "gal",
   "fuelType": "JET-A",
 
   "seatRows": [
@@ -2961,7 +2961,7 @@
         }
       ]
     },
-    "landing": "landing": {
+    "landing": {
       "LDRun": [
         {
           "pressureAltitude": 0.0,
