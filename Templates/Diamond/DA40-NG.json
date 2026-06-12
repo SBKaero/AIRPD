@@ -67,7 +67,7 @@
     {
       "name": "Tailwind",
       "operation": "percentagePerUnit",
-      "triggerUnit": 2,
+      "triggerUnit": 3,
       "value": 10,
       "reference": "",
       "notes": ""
@@ -75,7 +75,7 @@
     {
       "name": "Headwind",
       "operation": "percentagePerUnit",
-      "triggerUnit": 12,
+      "triggerUnit": 20,
       "value": -10,
       "reference": "",
       "notes": ""
@@ -91,6 +91,22 @@
     {
       "name": "RunwaySlope",
       "operation": "percentagePerUnit",
+      "triggerUnit": 1,
+      "value": 15,
+      "reference": "",
+      "notes": ""
+    },
+    {
+      "name": "Wheel Fairings",
+      "operation": "additive",
+      "triggerUnit": 0,
+      "value": 30,
+      "reference": "",
+      "notes": "no Fairings > add 30m"
+    },
+    {
+      "name": "Wet",
+      "operation": "percentage",
       "triggerUnit": 1,
       "value": 15,
       "reference": "",
