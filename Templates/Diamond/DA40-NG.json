@@ -1565,16 +1565,16 @@
           {
             "name": "Grass",
             "operation": "percentage",
-            "triggerUnit": 1,
-            "value": 10,
+            "triggerUnit": 0,
+            "value": 0,
             "reference": "",
             "notes": ""
           },
           {
             "name": "RunwaySlope",
             "operation": "percentagePerUnit",
-            "triggerUnit": 1,
-            "value": 15,
+            "triggerUnit": 0,
+            "value": 0,
             "reference": "",
             "notes": ""
           },
@@ -4499,8 +4499,8 @@
           {
             "name": "Grass",
             "operation": "percentage",
-            "triggerUnit": 1,
-            "value": 30,
+            "triggerUnit": 0,
+            "value": 0,
             "reference": "",
             "notes": ""
           },
@@ -4515,8 +4515,8 @@
           {
             "name": "RunwaySlope",
             "operation": "percentagePerUnit",
-            "triggerUnit": 1,
-            "value": -10,
+            "triggerUnit": 0,
+            "value": 0,
             "reference": "",
             "notes": ""
           }
@@ -7433,8 +7433,8 @@
           {
             "name": "Grass",
             "operation": "percentage",
-            "triggerUnit": 1,
-            "value": 30,
+            "triggerUnit": 0,
+            "value": 0,
             "reference": "",
             "notes": ""
           },
@@ -7449,8 +7449,8 @@
           {
             "name": "RunwaySlope",
             "operation": "percentagePerUnit",
-            "triggerUnit": 1,
-            "value": -10,
+            "triggerUnit": 0,
+            "value": 0,
             "reference": "",
             "notes": ""
           }
