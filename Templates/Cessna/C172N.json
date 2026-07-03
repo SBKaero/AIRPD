@@ -1783,7 +1783,7 @@
       {
         "phase": "landing",
         "type": "run",
-        "configuration": "40�",
+        "configuration": "40",
         "rwyType": "paved",
         "rwyCond": "dry",
         "corrections": [
@@ -2096,7 +2096,7 @@
       {
         "phase": "landing",
         "type": "distance",
-        "configuration": "40�",
+        "configuration": "40",
         "rwyType": "paved",
         "rwyCond": "dry",
         "corrections": [
