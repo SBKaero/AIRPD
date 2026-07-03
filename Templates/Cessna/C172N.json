@@ -930,7 +930,7 @@
       {
         "phase": "takeoff",
         "type": "distance",
-        "configuration": "TO",
+        "configuration": "UP",
         "rwyType": "paved",
         "rwyCond": "dry",
         "corrections": [
