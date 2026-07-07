@@ -79,7 +79,7 @@
       {
         "phase": "takeoff",
         "type": "run",
-        "configuration": "0,5",
+        "configuration": "50%",
         "rwyType": "paved",
         "rwyCond": "dry",
         "corrections": [
@@ -638,7 +638,7 @@
       {
         "phase": "takeoff",
         "type": "distance",
-        "configuration": "0,5",
+        "configuration": "50%",
         "rwyType": "paved",
         "rwyCond": "dry",
         "corrections": [
@@ -1197,7 +1197,7 @@
       {
         "phase": "landing",
         "type": "run",
-        "configuration": "1",
+        "configuration": "100%",
         "rwyType": "paved",
         "rwyCond": "dry",
         "corrections": [
@@ -1498,7 +1498,7 @@
       {
         "phase": "landing",
         "type": "distance",
-        "configuration": "1",
+        "configuration": "100%",
         "rwyType": "paved",
         "rwyCond": "dry",
         "corrections": [
