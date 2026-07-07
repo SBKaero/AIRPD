@@ -49,6 +49,12 @@
   }
   ,
   {
+    "manufacturer": "Cirrus",
+    "name": "SR20",
+    "file": "Templates/Cirrus/SR20.json"
+  }
+  ,
+  {
     "manufacturer": "Diamond",
     "name": "DA40-NG",
     "file": "Templates/Diamond/DA40-NG.json"
