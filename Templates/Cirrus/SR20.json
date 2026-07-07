@@ -32,7 +32,7 @@
     {
       "name": "Tank",
       "arm": 153.8,
-      "maxFuel": 0
+      "maxFuel": 56
     }
   ],
   "envelope": {
