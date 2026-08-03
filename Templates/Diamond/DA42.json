@@ -1,0 +1,84 @@
+{
+  "aircraftType": "DA42",
+  "registration": "D-XXXX",
+  "isTandem": false,
+  "emptyWeight": 1250,
+  "emptyArm": 2.35,
+  "maxTakeoffWeight": 1785,
+  "maxZeroFuelWeight": 1650,
+  "maxLandingWeight": 1700,
+  "weightUnit": "kg",
+  "armUnit": "meter",
+  "fuelUnit": "gal",
+  "fuelType": "JET-A",
+  "seatRows": [
+    {
+      "arm": 2.3,
+      "seatCount": 2
+    },
+    {
+      "arm": 3.25,
+      "seatCount": 2
+    }
+  ],
+  "baggageRows": [
+    {
+      "arm": 0.6,
+      "bags": [
+        30
+      ]
+    },
+    {
+      "arm": 3.89,
+      "bags": [
+        45
+      ]
+    },
+    {
+      "arm": 4.54,
+      "bags": [
+        18
+      ]
+    }
+  ],
+  "fuelTanks": [
+    {
+      "name": "Tank",
+      "arm": 2.63,
+      "maxFuel": 25
+    },
+    {
+      "name": "Aux",
+      "arm": 3.2,
+      "maxFuel": 13.2
+    }
+  ],
+  "envelope": {
+    "points": [
+      {
+        "arm": 2.35,
+        "value": 1250
+      },
+      {
+        "arm": 2.35,
+        "value": 1440
+      },
+      {
+        "arm": 2.4,
+        "value": 1785
+      },
+      {
+        "arm": 2.49,
+        "value": 1785
+      },
+      {
+        "arm": 2.49,
+        "value": 1600
+      },
+      {
+        "arm": 2.42,
+        "value": 1250
+      }
+    ]
+  }
+}
