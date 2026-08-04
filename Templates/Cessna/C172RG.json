@@ -6,10 +6,10 @@
   "emptyArm": 38,
   "maxTakeoffWeight": 2650,
   "maxZeroFuelWeight": null,
-  "weightUnit": "kg",
-  "armUnit": "meter",
-  "fuelUnit": "L",
-  "fuelType": "JET-A",
+  "weightUnit": "lbs",
+  "armUnit": "inch",
+  "fuelUnit": "gal",
+  "fuelType": "AVGAS 100LL",
   "seatRows": [
     {
       "arm": 37,
