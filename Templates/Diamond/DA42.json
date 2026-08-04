@@ -24,23 +24,23 @@
   "baggageRows": [
     {
       "position": "front",
-      "arm": null,
+      "arm": 0.6,
       "bags": [
-        0.6
+        30
       ]
     },
     {
       "position": "rear",
-      "arm": null,
+      "arm": 3.89,
       "bags": [
-        3.89
+        45
       ]
     },
     {
       "position": "rear",
-      "arm": null,
+      "arm": 4.54,
       "bags": [
-        4.54
+        18
       ]
     }
   ],
