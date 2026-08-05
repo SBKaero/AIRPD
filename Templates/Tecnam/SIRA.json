@@ -12,12 +12,8 @@
   "fuelType": "AVGAS 100LL",
   "seatRows": [
     {
-      "arm": 1.8,
+      "arm": 1.53,
       "seatCount": 2
-    },
-    {
-      "arm": 0,
-      "seatCount": 0
     }
   ],
   "baggageRows": [
