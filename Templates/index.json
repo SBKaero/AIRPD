@@ -77,4 +77,10 @@
     "name": "DA42",
     "file": "Templates/Diamond/DA42.json"
   }
+,
+  {
+    "manufacturer": "Tecnam",
+    "name": "SIRA",
+    "file": "Templates/Tecnam/SIRA.json"
+  }
 ]
