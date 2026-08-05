@@ -1,0 +1,3420 @@
+{
+  "aircraftType": "P208",
+  "registration": "D-XXXX",
+  "isTandem": false,
+  "emptyWeight": 369,
+  "emptyArm": 1.89,
+  "maxTakeoffWeight": 600,
+  "maxZeroFuelWeight": null,
+  "weightUnit": "kg",
+  "armUnit": "meter",
+  "fuelUnit": "L",
+  "fuelType": "AVGAS 100LL",
+  "seatRows": [
+    {
+      "arm": 1.9,
+      "seatCount": 2
+    }
+  ],
+  "baggageRows": [
+    {
+      "position": "rear",
+      "arm": 2.417,
+      "bags": [
+        20
+      ]
+    }
+  ],
+  "fuelTanks": [
+    {
+      "name": "Tank",
+      "arm": 2.209,
+      "maxFuel": 104
+    }
+  ],
+  "envelope": {
+    "points": [
+      {
+        "arm": 1.842,
+        "value": 369
+      },
+      {
+        "arm": 1.842,
+        "value": 600
+      },
+      {
+        "arm": 2.02,
+        "value": 600
+      },
+      {
+        "arm": 2.02,
+        "value": 369
+      }
+    ]
+  },
+  "performance": {
+    "performanceUnits": {
+      "distance": "meters",
+      "altitude": "feet",
+      "temperature": "celsius",
+      "windSpeed": "knots",
+      "weight": "kg"
+    },
+    "configurations": [
+      {
+        "phase": "takeoff",
+        "type": "run",
+        "configuration": "TO",
+        "corrections": [
+          {
+            "name": "Headwind",
+            "operation": "valuePerUnit",
+            "triggerUnit": 1,
+            "value": -5,
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Tailwind",
+            "operation": "valuePerUnit",
+            "triggerUnit": 1,
+            "value": 15,
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Paved",
+            "operation": "percentage",
+            "triggerUnit": 1,
+            "value": -6,
+            "rwyType": "hardPaved",
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "RunwaySlope",
+            "operation": "percentagePerUnit",
+            "triggerUnit": 1,
+            "value": 5,
+            "reference": "",
+            "notes": ""
+          }
+        ],
+        "cells": [
+          {
+            "pressureAltitude": 0,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 139
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 167
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 197
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 230
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 149
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 179
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 212
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 247
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 160
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 192
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 227
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 264
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 172
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 206
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 243
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 283
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 184
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 221
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 261
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 304
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 198
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 237
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 280
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 326
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 212
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 255
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 301
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 351
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 228
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 274
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 323
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 377
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 245
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 294
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 347
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 405
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 264
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 316
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 374
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 436
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 284
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 341
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 402
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 469
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 111
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 133
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 157
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 184
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 119
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 143
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 169
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 197
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 128
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 153
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 181
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 211
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 137
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 164
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 194
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 226
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 147
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 176
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 208
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 242
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 158
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 189
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 223
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 260
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 169
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 203
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 240
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 280
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 182
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 218
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 258
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 300
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 195
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 235
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 277
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 323
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 210
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 252
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 298
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 347
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": -25,
+            "PTOW": 1280,
+            "value": 226
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 0,
+            "PTOW": 1280,
+            "value": 272
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 25,
+            "PTOW": 1280,
+            "value": 321
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 50,
+            "PTOW": 1280,
+            "value": 374
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 87
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 104
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 123
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 143
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 93
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 111
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 132
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 153
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 100
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 119
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 141
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 164
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 107
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 128
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 151
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 176
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 115
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 137
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 162
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 189
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 123
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 148
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 174
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 203
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 132
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 159
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 187
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 218
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 142
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 170
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 201
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 234
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 153
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 183
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 216
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 252
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 164
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 197
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 233
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 271
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 177
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 212
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 250
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 292
+          }
+        ]
+      },
+      {
+        "phase": "takeoff",
+        "type": "distance",
+        "configuration": "TO",
+        "corrections": [
+          {
+            "name": "Headwind",
+            "operation": "valuePerUnit",
+            "triggerUnit": 1,
+            "value": -5,
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Tailwind",
+            "operation": "valuePerUnit",
+            "triggerUnit": 1,
+            "value": 15,
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Paved",
+            "operation": "percentage",
+            "triggerUnit": 0,
+            "value": 0,
+            "rwyType": "hardPaved",
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "RunwaySlope",
+            "operation": "percentagePerUnit",
+            "triggerUnit": 0,
+            "value": 0,
+            "reference": "",
+            "notes": ""
+          }
+        ],
+        "cells": [
+          {
+            "pressureAltitude": 0,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 231
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 277
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 327
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 381
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 247
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 297
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 351
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 409
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 265
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 318
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 376
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 438
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 284
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 341
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 403
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 470
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 305
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 366
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 432
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 504
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 327
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 393
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 464
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 541
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 352
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 422
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 499
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 581
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 378
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 454
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 536
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 624
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 406
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 488
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 576
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 671
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 437
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 525
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 620
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 722
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 470
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 565
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 667
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 777
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 184
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 221
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 261
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 304
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 197
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 237
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 280
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 326
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 211
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 254
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 300
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 349
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 227
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 272
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 321
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 375
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 243
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 292
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 345
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 402
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 261
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 313
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 370
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 431
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 280
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 337
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 398
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 463
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 301
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 362
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 427
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 498
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 324
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 389
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 459
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 535
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 349
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 418
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 494
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 576
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": -25,
+            "PTOW": 1280,
+            "value": 375
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 0,
+            "PTOW": 1280,
+            "value": 450
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 25,
+            "PTOW": 1280,
+            "value": 532
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 50,
+            "PTOW": 1280,
+            "value": 620
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 144
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 172
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 204
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 237
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 154
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 185
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 218
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 254
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 165
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 198
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 234
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 273
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 177
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 212
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 251
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 292
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 190
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 228
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 269
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 314
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 204
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 245
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 289
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 337
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 219
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 263
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 310
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 362
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 235
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 282
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 333
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 389
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 253
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 304
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 359
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 418
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 272
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 327
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 386
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 449
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 293
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 351
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 415
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 484
+          }
+        ]
+      },
+      {
+        "phase": "landing",
+        "type": "run",
+        "configuration": "LDG",
+        "corrections": [
+          {
+            "name": "Headwind",
+            "operation": "valuePerUnit",
+            "triggerUnit": 1,
+            "value": -5,
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Tailwind",
+            "operation": "valuePerUnit",
+            "triggerUnit": 1,
+            "value": 15,
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Paved",
+            "operation": "percentage",
+            "triggerUnit": 1,
+            "value": -2,
+            "rwyType": "hardPaved",
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Wet",
+            "operation": "percentage",
+            "triggerUnit": 0,
+            "value": 0,
+            "rwyCondition": "wet",
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "RunwaySlope",
+            "operation": "percentagePerUnit",
+            "triggerUnit": 1,
+            "value": -2.5,
+            "reference": "",
+            "notes": ""
+          }
+        ],
+        "cells": [
+          {
+            "pressureAltitude": 0,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 135
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 149
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 162
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 176
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 140
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 154
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 168
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 182
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 145
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 160
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 175
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 189
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 151
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 166
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 181
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 196
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 156
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 172
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 188
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 204
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 162
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 179
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 195
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 212
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 169
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 186
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 203
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 220
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 175
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 193
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 210
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 228
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 182
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 200
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 219
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 237
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 189
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 208
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 227
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 246
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 197
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 216
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 236
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 256
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 114
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 125
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 136
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 148
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 118
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 130
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 141
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 153
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 122
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 134
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 147
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 159
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 127
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 139
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 152
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 165
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 131
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 145
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 158
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 171
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 136
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 150
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 164
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 178
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 142
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 156
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 170
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 185
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 147
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 162
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 177
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 192
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 153
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 168
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 184
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 199
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 159
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 175
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 191
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 207
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 165
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 182
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 198
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 215
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 94
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 103
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 113
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 122
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 97
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 107
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 117
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 127
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 101
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 111
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 121
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 131
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 105
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 115
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 126
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 136
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 109
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 120
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 131
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 142
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 113
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 124
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 136
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 147
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 117
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 129
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 141
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 153
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 122
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 134
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 146
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 158
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 126
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 139
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 152
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 165
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 131
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 145
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 158
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 171
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 136
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 150
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 164
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 178
+          }
+        ]
+      },
+      {
+        "phase": "landing",
+        "type": "distance",
+        "configuration": "LDG",
+        "corrections": [
+          {
+            "name": "Headwind",
+            "operation": "valuePerUnit",
+            "triggerUnit": 1,
+            "value": -5,
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Tailwind",
+            "operation": "valuePerUnit",
+            "triggerUnit": 1,
+            "value": 11,
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Paved",
+            "operation": "percentage",
+            "triggerUnit": 0,
+            "value": 0,
+            "rwyType": "hardPaved",
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Wet",
+            "operation": "percentage",
+            "triggerUnit": 0,
+            "value": 0,
+            "rwyCondition": "wet",
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "RunwaySlope",
+            "operation": "percentagePerUnit",
+            "triggerUnit": 0,
+            "value": 0,
+            "reference": "",
+            "notes": ""
+          }
+        ],
+        "cells": [
+          {
+            "pressureAltitude": 0,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 344
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 358
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 371
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 385
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 349
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 363
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 377
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 391
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 354
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 369
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 384
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 398
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 360
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 375
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 390
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 405
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 365
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 381
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 397
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 413
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 371
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 388
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 404
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 421
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 378
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 395
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 412
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 429
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 384
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 402
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 419
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 437
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 391
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 409
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 428
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 446
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 398
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 417
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 436
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 455
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": -25,
+            "PTOW": 600,
+            "value": 406
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 0,
+            "PTOW": 600,
+            "value": 425
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 25,
+            "PTOW": 600,
+            "value": 445
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 50,
+            "PTOW": 600,
+            "value": 465
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 323
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 334
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 345
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 357
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 327
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 339
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 350
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 362
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 331
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 343
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 356
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 368
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 336
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 348
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 361
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 374
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 340
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 354
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 367
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 380
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 345
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 359
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 373
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 387
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 351
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 365
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 379
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 394
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 356
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 371
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 386
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 401
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 362
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 377
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 393
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 408
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 368
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 384
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 400
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 416
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": -25,
+            "PTOW": 550,
+            "value": 374
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 0,
+            "PTOW": 550,
+            "value": 391
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 25,
+            "PTOW": 550,
+            "value": 407
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 50,
+            "PTOW": 550,
+            "value": 424
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 303
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 312
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 322
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 331
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 306
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 316
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 326
+          },
+          {
+            "pressureAltitude": 1000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 336
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 310
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 320
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 330
+          },
+          {
+            "pressureAltitude": 2000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 340
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 314
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 324
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 335
+          },
+          {
+            "pressureAltitude": 3000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 345
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 318
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 329
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 340
+          },
+          {
+            "pressureAltitude": 4000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 351
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 322
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 333
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 345
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 356
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 326
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 338
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 350
+          },
+          {
+            "pressureAltitude": 6000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 362
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 331
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 343
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 355
+          },
+          {
+            "pressureAltitude": 7000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 367
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 335
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 348
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 361
+          },
+          {
+            "pressureAltitude": 8000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 374
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 340
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 354
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 367
+          },
+          {
+            "pressureAltitude": 9000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 380
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": -25,
+            "PTOW": 500,
+            "value": 345
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 0,
+            "PTOW": 500,
+            "value": 359
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 25,
+            "PTOW": 500,
+            "value": 373
+          },
+          {
+            "pressureAltitude": 10000,
+            "OAT": 50,
+            "PTOW": 500,
+            "value": 387
+          }
+        ]
+      }
+    ]
+  }
+}

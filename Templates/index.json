@@ -83,4 +83,10 @@
     "name": "SIRA",
     "file": "Templates/Tecnam/SIRA.json"
   }
+,
+  {
+    "manufacturer": "Tecnam",
+    "name": "P208",
+    "file": "Templates/Tecnam/P208.json"
+  }
 ]
