@@ -16,14 +16,14 @@
       "seatCount": 2
     },
     {
-      "arm": 2.2,
-      "seatCount": 2
+      "arm": 0,
+      "seatCount": 0
     }
   ],
   "baggageRows": [
     {
       "position": "rear",
-      "arm": 2.26,
+      "arm": 2.2,
       "bags": [
         20
       ]
