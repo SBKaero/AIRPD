@@ -56,6 +56,12 @@
   ,
   {
     "manufacturer": "Cessna",
+    "name": "C208B-SV9",
+    "file": "Templates/Cessna/C208B-SV9.json"
+  }
+  ,
+  {
+    "manufacturer": "Cessna",
     "name": "C210",
     "file": "Templates/Cessna/C210.json"
   }
