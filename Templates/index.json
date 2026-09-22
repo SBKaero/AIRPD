@@ -27,6 +27,12 @@
   {
     "manufacturer": "Cessna",
     "name": "C172N",
+    "file": "Templates/Cessna/C172-59.json"
+  }
+  ,
+  {
+    "manufacturer": "Cessna",
+    "name": "C172N",
     "file": "Templates/Cessna/C172N.json"
   }
   ,

@@ -1,0 +1,516 @@
+{
+  "aircraftType": "C172-BJ1959",
+  "registration": "D-XXXX",
+  "isTandem": false,
+  "emptyWeight": 1290,
+  "emptyArm": 38.2,
+  "maxTakeoffWeight": 2200,
+  "maxZeroFuelWeight": null,
+  "weightUnit": "lbs",
+  "armUnit": "inch",
+  "fuelUnit": "gal",
+  "fuelType": "AVGAS 100LL",
+  "seatRows": [
+    {
+      "arm": 35.9,
+      "seatCount": 2
+    },
+    {
+      "arm": 70,
+      "seatCount": 2
+    }
+  ],
+  "baggageRows": [
+    {
+      "position": "rear",
+      "arm": 95.35,
+      "bags": [
+        50
+      ]
+    }
+  ],
+  "fuelTanks": [
+    {
+      "name": "Tank",
+      "arm": 48.2,
+      "maxFuel": 37
+    }
+  ],
+  "envelope": {
+    "points": [
+      {
+        "arm": 36,
+        "value": 1500
+      },
+      {
+        "arm": 36,
+        "value": 1750
+      },
+      {
+        "arm": 40.5,
+        "value": 2200
+      },
+      {
+        "arm": 46.5,
+        "value": 2200
+      },
+      {
+        "arm": 46.5,
+        "value": 1500
+      }
+    ]
+  },
+  "performance": {
+    "performanceUnits": {
+      "distance": "feet",
+      "altitude": "feet",
+      "temperature": "celsius",
+      "windSpeed": "knots",
+      "weight": "lbs"
+    },
+    "configurations": [
+      {
+        "phase": "takeoff",
+        "type": "run",
+        "configuration": "UP",
+        "corrections": [
+          {
+            "name": "Headwind",
+            "operation": "percentagePerUnit",
+            "triggerUnit": 10,
+            "value": -20,
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Tailwind",
+            "operation": "percentagePerUnit",
+            "triggerUnit": 0,
+            "value": 0,
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Grass",
+            "operation": "percentage",
+            "triggerUnit": 0,
+            "value": 0,
+            "rwyType": "grass",
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "RunwaySlope",
+            "operation": "percentagePerUnit",
+            "triggerUnit": 0,
+            "value": 0,
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Temperature",
+            "operation": "percentagePerUnit",
+            "triggerUnit": 25,
+            "value": 10,
+            "reference": "ISA",
+            "notes": ""
+          }
+        ],
+        "cells": [
+          {
+            "pressureAltitude": 0,
+            "OAT": 15,
+            "PTOW": 1600,
+            "value": 355
+          },
+          {
+            "pressureAltitude": 2500,
+            "OAT": 10,
+            "PTOW": 1600,
+            "value": 420
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 5,
+            "PTOW": 1600,
+            "value": 505
+          },
+          {
+            "pressureAltitude": 7500,
+            "OAT": 0,
+            "PTOW": 1600,
+            "value": 610
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 15,
+            "PTOW": 1900,
+            "value": 515
+          },
+          {
+            "pressureAltitude": 2500,
+            "OAT": 10,
+            "PTOW": 1900,
+            "value": 615
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 5,
+            "PTOW": 1900,
+            "value": 750
+          },
+          {
+            "pressureAltitude": 7500,
+            "OAT": 0,
+            "PTOW": 1900,
+            "value": 965
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 15,
+            "PTOW": 2200,
+            "value": 725
+          },
+          {
+            "pressureAltitude": 2500,
+            "OAT": 10,
+            "PTOW": 2200,
+            "value": 880
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 5,
+            "PTOW": 2200,
+            "value": 1080
+          },
+          {
+            "pressureAltitude": 7500,
+            "OAT": 0,
+            "PTOW": 2200,
+            "value": 1365
+          }
+        ]
+      },
+      {
+        "phase": "takeoff",
+        "type": "distance",
+        "configuration": "UP",
+        "corrections": [
+          {
+            "name": "Headwind",
+            "operation": "percentagePerUnit",
+            "triggerUnit": 10,
+            "value": -20,
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Tailwind",
+            "operation": "percentagePerUnit",
+            "triggerUnit": 0,
+            "value": 0,
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Grass",
+            "operation": "percentage",
+            "triggerUnit": 0,
+            "value": 0,
+            "rwyType": "grass",
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "RunwaySlope",
+            "operation": "percentagePerUnit",
+            "triggerUnit": 0,
+            "value": 0,
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Temperature",
+            "operation": "percentagePerUnit",
+            "triggerUnit": 25,
+            "value": 10,
+            "reference": "ISA",
+            "notes": ""
+          }
+        ],
+        "cells": [
+          {
+            "pressureAltitude": 0,
+            "OAT": 15,
+            "PTOW": 1600,
+            "value": 805
+          },
+          {
+            "pressureAltitude": 2500,
+            "OAT": 10,
+            "PTOW": 1600,
+            "value": 955
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 5,
+            "PTOW": 1600,
+            "value": 1145
+          },
+          {
+            "pressureAltitude": 7500,
+            "OAT": 0,
+            "PTOW": 1600,
+            "value": 1390
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 15,
+            "PTOW": 1900,
+            "value": 1175
+          },
+          {
+            "pressureAltitude": 2500,
+            "OAT": 10,
+            "PTOW": 1900,
+            "value": 1400
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 5,
+            "PTOW": 1900,
+            "value": 1710
+          },
+          {
+            "pressureAltitude": 7500,
+            "OAT": 0,
+            "PTOW": 1900,
+            "value": 2175
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 15,
+            "PTOW": 2200,
+            "value": 1650
+          },
+          {
+            "pressureAltitude": 2500,
+            "OAT": 10,
+            "PTOW": 2200,
+            "value": 2000
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 5,
+            "PTOW": 2200,
+            "value": 2455
+          },
+          {
+            "pressureAltitude": 7500,
+            "OAT": 0,
+            "PTOW": 2200,
+            "value": 3100
+          }
+        ]
+      },
+      {
+        "phase": "landing",
+        "type": "run",
+        "configuration": "40deg",
+        "corrections": [
+          {
+            "name": "Headwind",
+            "operation": "percentagePerUnit",
+            "triggerUnit": 5.2,
+            "value": -10,
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Tailwind",
+            "operation": "percentagePerUnit",
+            "triggerUnit": 0,
+            "value": 0,
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Grass",
+            "operation": "percentage",
+            "triggerUnit": 0,
+            "value": 0,
+            "rwyType": "grass",
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Wet",
+            "operation": "percentage",
+            "triggerUnit": 0,
+            "value": 0,
+            "rwyCondition": "wet",
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "RunwaySlope",
+            "operation": "percentagePerUnit",
+            "triggerUnit": 0,
+            "value": 0,
+            "reference": "",
+            "notes": ""
+          }
+        ],
+        "cells": [
+          {
+            "pressureAltitude": 0,
+            "OAT": 15,
+            "PTOW": 1600,
+            "value": 530
+          },
+          {
+            "pressureAltitude": 2500,
+            "OAT": 10,
+            "PTOW": 1600,
+            "value": 560
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 5,
+            "PTOW": 1600,
+            "value": 585
+          },
+          {
+            "pressureAltitude": 7500,
+            "OAT": 0,
+            "PTOW": 1600,
+            "value": 615
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 15,
+            "PTOW": 2200,
+            "value": 680
+          },
+          {
+            "pressureAltitude": 2500,
+            "OAT": 10,
+            "PTOW": 2200,
+            "value": 720
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 5,
+            "PTOW": 2200,
+            "value": 760
+          },
+          {
+            "pressureAltitude": 7500,
+            "OAT": 0,
+            "PTOW": 2200,
+            "value": 800
+          }
+        ]
+      },
+      {
+        "phase": "landing",
+        "type": "distance",
+        "configuration": "40deg",
+        "corrections": [
+          {
+            "name": "Headwind",
+            "operation": "percentagePerUnit",
+            "triggerUnit": 5.2,
+            "value": -10,
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Tailwind",
+            "operation": "percentagePerUnit",
+            "triggerUnit": 0,
+            "value": 0,
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Grass",
+            "operation": "percentage",
+            "triggerUnit": 0,
+            "value": 0,
+            "rwyType": "grass",
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "Wet",
+            "operation": "percentage",
+            "triggerUnit": 0,
+            "value": 0,
+            "rwyCondition": "wet",
+            "reference": "",
+            "notes": ""
+          },
+          {
+            "name": "RunwaySlope",
+            "operation": "percentagePerUnit",
+            "triggerUnit": 0,
+            "value": 0,
+            "reference": "",
+            "notes": ""
+          }
+        ],
+        "cells": [
+          {
+            "pressureAltitude": 0,
+            "OAT": 15,
+            "PTOW": 1600,
+            "value": 870
+          },
+          {
+            "pressureAltitude": 2500,
+            "OAT": 10,
+            "PTOW": 1600,
+            "value": 915
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 5,
+            "PTOW": 1600,
+            "value": 960
+          },
+          {
+            "pressureAltitude": 7500,
+            "OAT": 0,
+            "PTOW": 1600,
+            "value": 1010
+          },
+          {
+            "pressureAltitude": 0,
+            "OAT": 15,
+            "PTOW": 2200,
+            "value": 1115
+          },
+          {
+            "pressureAltitude": 2500,
+            "OAT": 10,
+            "PTOW": 2200,
+            "value": 1180
+          },
+          {
+            "pressureAltitude": 5000,
+            "OAT": 5,
+            "PTOW": 2200,
+            "value": 1245
+          },
+          {
+            "pressureAltitude": 7500,
+            "OAT": 0,
+            "PTOW": 2200,
+            "value": 1315
+          }
+        ]
+      }
+    ]
+  }
+}
